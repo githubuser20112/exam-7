@@ -1,0 +1,17 @@
+.play-btn.playing {
+  animation: pulse 1s infinite alternate; /* Example animation */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+
+.tir:hover{
+  background-color: #303030;
+}
